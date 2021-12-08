@@ -1,0 +1,21 @@
+<div class="Box">
+    <form [formGroup]="myReactiveForm" (ngSubmit)="onSubmit()">
+        <label for="FirstNameOfCandidate">First Name Of Candidate</label>
+        <input type="text" id="FirstNameOfCandidate" formControlName="FirstNameOfCandidate">   
+        <br>   
+        <label for="LastNameOfCandidate">Last Name Of Candidate</label>
+        <input type="text" id="LastNameOfCandidate" formControlName="LastNameOfCandidate">    
+        <br> 
+        <br> 
+        <label for="EmailAdressOfCandidate">Email Adress Of Candidate</label>
+        <input type="text" id="EmailAdressOfCandidate" formControlName="EmailAdressOfCandidate">
+        <br>
+       
+    <label for="Password">Password Of Candidate</label>
+    <input type="text" id="Password" formControlName="Password">
+    <br>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</div>
